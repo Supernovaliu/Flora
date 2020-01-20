@@ -1,0 +1,8 @@
+class ChairMan{
+	public static void main(String[] args){
+		System.out.println("xipangzi\n");
+		//System.out.println();
+		System.out.println("xingbie:nan");
+	}
+	
+}

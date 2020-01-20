@@ -1,0 +1,16 @@
+
+/**
+
+@author flora
+@version v13.0
+This is my first Java application
+
+*/
+public class  HelloJava{
+	
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("Hello World!");
+	}
+}

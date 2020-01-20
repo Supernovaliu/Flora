@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class  Test2
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		int point = scan.nextInt();
+		if (point==100)
+		{
+			System.out.println("奖励一辆BMW")；
+		}else if(80<point&& point<=90){
+				System.out.println("奖励一个IPAD")；
+			
+		}else{
+			System.out.println("什么奖励也没有")；
+		}
+	}
+}

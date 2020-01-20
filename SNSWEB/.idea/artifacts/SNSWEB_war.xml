@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SNSWEB:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SNSWEB.war">
+      <element id="artifact" artifact-name="SNSWEB:war exploded" />
+    </root>
+  </artifact>
+</component>

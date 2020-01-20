@@ -1,0 +1,22 @@
+//100以内所有质数的输出.从2开始到n-1结束，都不能被这个数本身整除
+class PrimeNumberTest 
+{
+	public static void main(String[] args) {
+		boolean isFlag = true;
+		//标识i是否被j除尽过
+		for (int i=2;i<=100 ;i++ ){
+			//boolean isFlag = true;
+			for (int j = 2;j<i ;j++ ){
+				if(i%j==0){
+				isFlag = false;
+				}
+			}
+
+			if(isFlag ==true){
+			System.out.println(i);
+		}
+		   isFlag = true;
+		}
+
+	}
+}

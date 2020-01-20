@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class  CharSwitch
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		char alp = scan.next().charAt(0);
+		switch(alp){
+			case 'a':
+				System.out.println("A");
+			case 'b':
+				System.out.println("B");
+			case 'c':
+				System.out.println("C");
+			case 'd':
+				System.out.println("D");
+			case 'e':
+				System.out.println("E");
+			default:
+				System.out.println("other");
+		}
+	}
+}
